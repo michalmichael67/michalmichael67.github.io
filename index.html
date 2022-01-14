@@ -18,7 +18,7 @@
         </div>
         <div class="row">
             <div class = "col-md-4">
-                <h3>Bellybutton Biodiversity Application <small>Will bellybutton bacteria identify the next beef alternative?</small></h3>
+                <h3>Bellybutton Biodiversity Application <small>Will belly button bacteria identify the next beef alternative?</small></h3>
             </div>
             <div class = "col-md-8">
                 <p>
@@ -36,26 +36,35 @@
         <div class="row">
           <div class="col-md-2">
             <div class="well">
-              <h5 style="color: white">Test Subject ID No.:</h5>
+              <h5 style="color: rgba(221, 216, 216, 0.705)">Test Subject ID No.:</h5>
               <select id="selDataset" onchange="optionChanged(this.value)"></select>
             </div>
             <div class="panel panel-primary">
               <div class="panel-heading">
-                <h3 class="panel-title" style="color: #fcfcfc ; font-size:18.5px" >Demographic Info</h3>
+                <h3 class="panel-title" style="color: rgba(221, 216, 216, 0.705) ; font-size:18.5px" >Demographic Info</h3>
               </div>
               <div id="sample-metadata" class="panel-body"></div>
             </div>
           </div>
           <div class="col-md-5">
             <div id="bar"></div>
+            <p>
+                This chart shows the top 10 bacterial species (by count) for the selected volunteer.
+            </p>
           </div>
           <div class="col-md-5">
             <div id="gauge"></div>
+            <p>
+                This chart shows how often the volunteer's belly button is washed each week.
+            </p>
           </div>
         </div>
         <div class="row">
           <div class="col-md-12">
             <div id="bubble"></div>
+            <p>
+                This chart shows all of the bacterial species for the selected volunteer. The size of the bubble corresponds to the amount of the bacteria found for the volunteer.
+            </p>
           </div>
         </div>
       </div>
